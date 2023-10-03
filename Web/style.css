@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+
+header p{
+    font-family: fantasy;
+    font-size: 20px;
+    letter-spacing: 7px;
+    padding: 10px;
+}
+
+.top-button{
+    padding: 0;
+    background-color: grey;
+}
+
+.top-button ul{
+    padding: 0;
+}
+
+.top-button ul li{
+    display: table-cell;
+    list-style: none;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 1%;
+    text-align: center;
+    color: black;
+}
+
+.top-button ul li:hover{
+    background-color: darkgray;
+}
+
+.intro-text{
+    background-color: deepskyblue;
+    color: white;
+    font-size: 48px;
+}
+
+.intro-article{
+    font-size: 24px;
+}
