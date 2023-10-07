@@ -42,12 +42,30 @@ header p{
     background-color: darkgray;
 }
 
-.intro-text{
+.intro-content{
+    display: flex;
+    justify-content: center;
+}
+
+.subhead-text{
     background-color: deepskyblue;
     color: white;
     font-size: 48px;
 }
 
 .intro-article{
-    font-size: 24px;
+    padding: 20px;
+    font-size-adjust: inherit;
+    text-align: center center;
+}
+
+.my-pic{
+    margin: 20px;
+    float: right;
+    width: 30%;
+    height: 30%;
+}
+
+.works-content{
+    display: table;
 }
