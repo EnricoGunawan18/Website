@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+html{
+	min-width: 700px;
+	scroll-behavior: smooth;
+}
+
 body{
     padding-left: 10px;
     padding-right: 10px;
@@ -44,7 +49,8 @@ header p{
 
 .intro-content{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 .subhead-text{
@@ -57,6 +63,7 @@ header p{
     padding: 20px;
     font-size-adjust: inherit;
     text-align: center center;
+    font-size: 24px;
 }
 
 .my-pic{
@@ -68,4 +75,16 @@ header p{
 
 .works-content{
     display: table;
+    list-style: none;
+}
+
+.works-content img{
+    width: 50%;
+    height: 50%;
+}
+
+.works-content ul li{
+    font-size: 36px;
+    list-style: none;
+    text-align: center;
 }
