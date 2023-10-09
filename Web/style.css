@@ -25,6 +25,8 @@ header p{
 }
 
 .top-button{
+    position: sticky;
+    top: 50px;
     padding: 0;
     background-color: grey;
 }
@@ -74,13 +76,12 @@ header p{
 }
 
 .works-content{
-    display: table;
     list-style: none;
 }
 
 .works-content img{
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 40%;
 }
 
 .works-content ul li{
