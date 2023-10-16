@@ -29,24 +29,25 @@ header p{
     position: sticky;
     top: 50px;
     padding: 0;
-    background-color: grey;
 }
 
 .top-button ul{
     padding: 0;
 }
 
-.top-button ul li{
+.top-button ul a{
+    background-color: grey;
     display: table-cell;
     list-style: none;
     padding-bottom: 10px;
     padding-top: 10px;
     width: 1%;
     text-align: center;
+    text-decoration: none;
     color: black;
 }
 
-.top-button ul li:hover{
+.top-button ul a:hover{
     background-color: darkgray;
 }
 
