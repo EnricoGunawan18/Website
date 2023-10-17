@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <script src="script.js"></script>
     <head>
         <title>ENRICO GUNAWAN WEBSITE</title>
         <link href="style.css" rel="stylesheet">
@@ -13,14 +14,14 @@
         <main>
             <article class="top-button">
                 <ul>
-                    <a href="#intro"><li>Introduction</li></a>
-                    <a href="#works"><li>Works</li></a>
-                    <a href="#skills"><li>Skills</li></a>
-                    <a href="#contact"><li>Contact</li></a>
+                    <button type="button" onclick="slideTo('intro')"><li>Introduction</li></button>
+                    <button type="button" onclick="slideTo('works')"><li>Works</li></button>
+                    <button type="button" onclick="slideTo('skills')"><li>Skills</li></button>
+                    <button type="button" onclick="slideTo('contact')"><li>Contact</li></button>
                 </ul>                
             </article>
 
-            <article class="intro">
+            <article class="intro" id="intro">
                 <p class="subhead-text">Introduction</p>
 
                 <div class="intro-content">
@@ -29,7 +30,7 @@
                 </div>
             </article>
 
-            <article class="works">
+            <article class="works" id="works">
                 <p class="subhead-text">Works</p>
 
                 <div class="works-content">
@@ -47,7 +48,7 @@
                 </div>
             </article>
 
-            <article class="skills">
+            <article class="skills" id="skills">
                 <p class="subhead-text">Skills</p>
                 <table>
                     <tbody>
@@ -83,15 +84,13 @@
                 </div>
             </article>
 
-            <article class="contact">
+            <article class="contact" id="contact">
                 <p class="subhead-text">Contact</p>
 
                 <div class="contact-content">
                     <p>Email : enricogunawan1812@gmail.com<br>Phone : 07074918888</p>
                 </div>
             </article>
-
-            <script src="script.js"></script>
         </main>
     </body>
 

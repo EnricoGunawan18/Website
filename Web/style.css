@@ -3,6 +3,7 @@
 html{
 	min-width: 700px;
 	scroll-behavior: smooth;
+    scroll-padding-top: 100px;
     margin-bottom: 40px;
 }
 
@@ -27,27 +28,28 @@ header p{
 
 .top-button{
     position: sticky;
-    top: 50px;
-    padding: 0;
+    top: 45px;
 }
 
 .top-button ul{
+    width: 100%;
+    display: inline-flex;
     padding: 0;
 }
 
-.top-button ul a{
+.top-button ul button{
     background-color: grey;
     display: table-cell;
     list-style: none;
     padding-bottom: 10px;
     padding-top: 10px;
-    width: 1%;
+    width: 25%;
     text-align: center;
     text-decoration: none;
     color: black;
 }
 
-.top-button ul a:hover{
+.top-button ul button:hover{
     background-color: darkgray;
 }
 
