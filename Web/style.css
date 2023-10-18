@@ -19,16 +19,18 @@ header{
     border-bottom: 2px solid black;
 }
 
-header p{
+header a{
     font-family: fantasy;
-    font-size: 20px;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
     letter-spacing: 7px;
     padding: 10px;
 }
 
 .top-button{
     position: sticky;
-    top: 45px;
+    top: 30px;
 }
 
 .top-button ul{
