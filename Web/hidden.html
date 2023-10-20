@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <script src="script.js"></script>
     <head>
         <title>ENRICO GUNAWAN WEBSITE</title>
         <link href="style.css" rel="stylesheet">
@@ -7,16 +8,16 @@
 
     <body>
         <header>
-            <p>ENRICO GUNAWAN</p>
+            <a href="home.html">ENRICO GUNAWAN</a>
         </header>
 
         <main>
             <article class="top-button">
                 <ul>
-                    <li><a href="#intro">Introduction</a></li>
-                    <li>Works</li>
-                    <li>Skills</li>
-                    <li>Contact</li>
+                    <button type="button" onclick="slideTo('intro')"><li>Introduction</li></button>
+                    <button type="button" onclick="slideTo('works')"><li>Works</li></button>
+                    <button type="button" onclick="slideTo('skills')"><li>Skills</li></button>
+                    <button type="button" onclick="slideTo('contact')"><li>Contact</li></button>
                 </ul>                
             </article>
         </main>
