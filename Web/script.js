@@ -1,5 +1,5 @@
 function slideTo(name){
-    if(window.location.hash != "home.html")
+    if(window.location.href != "http://localhost/Website/Web/home.html")
     {
         console.log("aa");
     }
