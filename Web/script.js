@@ -1,7 +1,14 @@
 function slideTo(name){
-    if(window.location.href != "http://localhost/Website/Web/home.html")
+    if(window.location.href.indexOf("home.html") == -1)
     {
         console.log("aa");
+
+        // $('body').animate({
+        //     scrollTop: $(window.location.hash).offset().top
+        // }, 1500);
     }
-    document.getElementById(name).scrollIntoView();
+    else
+    {
+        document.getElementById(name).scrollIntoView();
+    }
 }
